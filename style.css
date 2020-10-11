@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body
+{
+	font-family: 'Merriweather', serif;
+}
+#collapsibleNavbar
+{
+	font-size: 20px;
+}
+#collapsibleNavbar ul li a
+{
+	padding: 5px 20px;
+}
+#collapsibleNavbar ul li a:hover
+{
+	background-color: green;
+	color: white;
+	transition: 0.7s;
+}
+/*.active
+{
+	background-color: black;
+}*/
+@media only screen and (min-width: 480px) {
+  body {
+    font-size: 10px;
+  }
+}
